@@ -1,3 +1,5 @@
 console.log("primeiro linha");
-console.log("segundo linha");
+setTimeout(() => {
+    console.log("segundo linha");
+}, 5000);
 console.log("terceiro linha");
